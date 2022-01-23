@@ -29,9 +29,7 @@ function checkLucky() {
     }
 }
 
-function clearResult() {
-    results.innerText = ""
-}
+let clearResult = () => results.innerText = ""
 
 
 button.addEventListener("click", checkLucky)
